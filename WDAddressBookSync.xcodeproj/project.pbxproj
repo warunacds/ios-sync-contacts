@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88F22DEA1BE5F73B00B55559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F22DE91BE5F73B00B55559 /* main.m */; };
+		88F22DED1BE5F73B00B55559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F22DEC1BE5F73B00B55559 /* AppDelegate.m */; };
+		88F22DF01BE5F73B00B55559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F22DEF1BE5F73B00B55559 /* ViewController.m */; };
+		88F22DF31BE5F73B00B55559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F22DF11BE5F73B00B55559 /* Main.storyboard */; };
+		88F22DF61BE5F73B00B55559 /* WDAddressBookSync.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88F22DF41BE5F73B00B55559 /* WDAddressBookSync.xcdatamodeld */; };
+		88F22DF81BE5F73B00B55559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F22DF71BE5F73B00B55559 /* Assets.xcassets */; };
+		88F22DFB1BE5F73B00B55559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F22DF91BE5F73B00B55559 /* LaunchScreen.storyboard */; };
+		88F22E061BE5F73B00B55559 /* WDAddressBookSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F22E051BE5F73B00B55559 /* WDAddressBookSyncTests.m */; };
+		88F22E111BE5F73B00B55559 /* WDAddressBookSyncUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F22E101BE5F73B00B55559 /* WDAddressBookSyncUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88F22E021BE5F73B00B55559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F22DDD1BE5F73B00B55559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F22DE41BE5F73B00B55559;
+			remoteInfo = WDAddressBookSync;
+		};
+		88F22E0D1BE5F73B00B55559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F22DDD1BE5F73B00B55559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F22DE41BE5F73B00B55559;
+			remoteInfo = WDAddressBookSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88F22DE51BE5F73B00B55559 /* WDAddressBookSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDAddressBookSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F22DE91BE5F73B00B55559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88F22DEB1BE5F73B00B55559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88F22DEC1BE5F73B00B55559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88F22DEE1BE5F73B00B55559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88F22DEF1BE5F73B00B55559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88F22DF21BE5F73B00B55559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88F22DF51BE5F73B00B55559 /* WDAddressBookSync.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WDAddressBookSync.xcdatamodel; sourceTree = "<group>"; };
+		88F22DF71BE5F73B00B55559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88F22DFA1BE5F73B00B55559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88F22DFC1BE5F73B00B55559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F22E011BE5F73B00B55559 /* WDAddressBookSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDAddressBookSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F22E051BE5F73B00B55559 /* WDAddressBookSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAddressBookSyncTests.m; sourceTree = "<group>"; };
+		88F22E071BE5F73B00B55559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F22E0C1BE5F73B00B55559 /* WDAddressBookSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDAddressBookSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F22E101BE5F73B00B55559 /* WDAddressBookSyncUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAddressBookSyncUITests.m; sourceTree = "<group>"; };
+		88F22E121BE5F73B00B55559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F22DE21BE5F73B00B55559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F22DFE1BE5F73B00B55559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F22E091BE5F73B00B55559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F22DDC1BE5F73B00B55559 = {
+			isa = PBXGroup;
+			children = (
+				88F22DE71BE5F73B00B55559 /* WDAddressBookSync */,
+				88F22E041BE5F73B00B55559 /* WDAddressBookSyncTests */,
+				88F22E0F1BE5F73B00B55559 /* WDAddressBookSyncUITests */,
+				88F22DE61BE5F73B00B55559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F22DE61BE5F73B00B55559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F22DE51BE5F73B00B55559 /* WDAddressBookSync.app */,
+				88F22E011BE5F73B00B55559 /* WDAddressBookSyncTests.xctest */,
+				88F22E0C1BE5F73B00B55559 /* WDAddressBookSyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F22DE71BE5F73B00B55559 /* WDAddressBookSync */ = {
+			isa = PBXGroup;
+			children = (
+				88F22DEB1BE5F73B00B55559 /* AppDelegate.h */,
+				88F22DEC1BE5F73B00B55559 /* AppDelegate.m */,
+				88F22DEE1BE5F73B00B55559 /* ViewController.h */,
+				88F22DEF1BE5F73B00B55559 /* ViewController.m */,
+				88F22DF11BE5F73B00B55559 /* Main.storyboard */,
+				88F22DF71BE5F73B00B55559 /* Assets.xcassets */,
+				88F22DF91BE5F73B00B55559 /* LaunchScreen.storyboard */,
+				88F22DFC1BE5F73B00B55559 /* Info.plist */,
+				88F22DF41BE5F73B00B55559 /* WDAddressBookSync.xcdatamodeld */,
+				88F22DE81BE5F73B00B55559 /* Supporting Files */,
+			);
+			path = WDAddressBookSync;
+			sourceTree = "<group>";
+		};
+		88F22DE81BE5F73B00B55559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88F22DE91BE5F73B00B55559 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88F22E041BE5F73B00B55559 /* WDAddressBookSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				88F22E051BE5F73B00B55559 /* WDAddressBookSyncTests.m */,
+				88F22E071BE5F73B00B55559 /* Info.plist */,
+			);
+			path = WDAddressBookSyncTests;
+			sourceTree = "<group>";
+		};
+		88F22E0F1BE5F73B00B55559 /* WDAddressBookSyncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88F22E101BE5F73B00B55559 /* WDAddressBookSyncUITests.m */,
+				88F22E121BE5F73B00B55559 /* Info.plist */,
+			);
+			path = WDAddressBookSyncUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F22DE41BE5F73B00B55559 /* WDAddressBookSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F22E151BE5F73B00B55559 /* Build configuration list for PBXNativeTarget "WDAddressBookSync" */;
+			buildPhases = (
+				88F22DE11BE5F73B00B55559 /* Sources */,
+				88F22DE21BE5F73B00B55559 /* Frameworks */,
+				88F22DE31BE5F73B00B55559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDAddressBookSync;
+			productName = WDAddressBookSync;
+			productReference = 88F22DE51BE5F73B00B55559 /* WDAddressBookSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88F22E001BE5F73B00B55559 /* WDAddressBookSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F22E181BE5F73B00B55559 /* Build configuration list for PBXNativeTarget "WDAddressBookSyncTests" */;
+			buildPhases = (
+				88F22DFD1BE5F73B00B55559 /* Sources */,
+				88F22DFE1BE5F73B00B55559 /* Frameworks */,
+				88F22DFF1BE5F73B00B55559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F22E031BE5F73B00B55559 /* PBXTargetDependency */,
+			);
+			name = WDAddressBookSyncTests;
+			productName = WDAddressBookSyncTests;
+			productReference = 88F22E011BE5F73B00B55559 /* WDAddressBookSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88F22E0B1BE5F73B00B55559 /* WDAddressBookSyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F22E1B1BE5F73B00B55559 /* Build configuration list for PBXNativeTarget "WDAddressBookSyncUITests" */;
+			buildPhases = (
+				88F22E081BE5F73B00B55559 /* Sources */,
+				88F22E091BE5F73B00B55559 /* Frameworks */,
+				88F22E0A1BE5F73B00B55559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F22E0E1BE5F73B00B55559 /* PBXTargetDependency */,
+			);
+			name = WDAddressBookSyncUITests;
+			productName = WDAddressBookSyncUITests;
+			productReference = 88F22E0C1BE5F73B00B55559 /* WDAddressBookSyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F22DDD1BE5F73B00B55559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Waruna de Silva";
+				TargetAttributes = {
+					88F22DE41BE5F73B00B55559 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					88F22E001BE5F73B00B55559 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 88F22DE41BE5F73B00B55559;
+					};
+					88F22E0B1BE5F73B00B55559 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 88F22DE41BE5F73B00B55559;
+					};
+				};
+			};
+			buildConfigurationList = 88F22DE01BE5F73B00B55559 /* Build configuration list for PBXProject "WDAddressBookSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F22DDC1BE5F73B00B55559;
+			productRefGroup = 88F22DE61BE5F73B00B55559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F22DE41BE5F73B00B55559 /* WDAddressBookSync */,
+				88F22E001BE5F73B00B55559 /* WDAddressBookSyncTests */,
+				88F22E0B1BE5F73B00B55559 /* WDAddressBookSyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88F22DE31BE5F73B00B55559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F22DFB1BE5F73B00B55559 /* LaunchScreen.storyboard in Resources */,
+				88F22DF81BE5F73B00B55559 /* Assets.xcassets in Resources */,
+				88F22DF31BE5F73B00B55559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F22DFF1BE5F73B00B55559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F22E0A1BE5F73B00B55559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F22DE11BE5F73B00B55559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F22DF01BE5F73B00B55559 /* ViewController.m in Sources */,
+				88F22DED1BE5F73B00B55559 /* AppDelegate.m in Sources */,
+				88F22DEA1BE5F73B00B55559 /* main.m in Sources */,
+				88F22DF61BE5F73B00B55559 /* WDAddressBookSync.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F22DFD1BE5F73B00B55559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F22E061BE5F73B00B55559 /* WDAddressBookSyncTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F22E081BE5F73B00B55559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F22E111BE5F73B00B55559 /* WDAddressBookSyncUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88F22E031BE5F73B00B55559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F22DE41BE5F73B00B55559 /* WDAddressBookSync */;
+			targetProxy = 88F22E021BE5F73B00B55559 /* PBXContainerItemProxy */;
+		};
+		88F22E0E1BE5F73B00B55559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F22DE41BE5F73B00B55559 /* WDAddressBookSync */;
+			targetProxy = 88F22E0D1BE5F73B00B55559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88F22DF11BE5F73B00B55559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F22DF21BE5F73B00B55559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88F22DF91BE5F73B00B55559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F22DFA1BE5F73B00B55559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88F22E131BE5F73B00B55559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88F22E141BE5F73B00B55559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88F22E161BE5F73B00B55559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDAddressBookSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDAddressBookSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88F22E171BE5F73B00B55559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDAddressBookSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDAddressBookSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88F22E191BE5F73B00B55559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDAddressBookSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDAddressBookSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDAddressBookSync.app/WDAddressBookSync";
+			};
+			name = Debug;
+		};
+		88F22E1A1BE5F73B00B55559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDAddressBookSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDAddressBookSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDAddressBookSync.app/WDAddressBookSync";
+			};
+			name = Release;
+		};
+		88F22E1C1BE5F73B00B55559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDAddressBookSyncUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDAddressBookSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDAddressBookSync;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88F22E1D1BE5F73B00B55559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDAddressBookSyncUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDAddressBookSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDAddressBookSync;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F22DE01BE5F73B00B55559 /* Build configuration list for PBXProject "WDAddressBookSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F22E131BE5F73B00B55559 /* Debug */,
+				88F22E141BE5F73B00B55559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F22E151BE5F73B00B55559 /* Build configuration list for PBXNativeTarget "WDAddressBookSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F22E161BE5F73B00B55559 /* Debug */,
+				88F22E171BE5F73B00B55559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88F22E181BE5F73B00B55559 /* Build configuration list for PBXNativeTarget "WDAddressBookSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F22E191BE5F73B00B55559 /* Debug */,
+				88F22E1A1BE5F73B00B55559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88F22E1B1BE5F73B00B55559 /* Build configuration list for PBXNativeTarget "WDAddressBookSyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F22E1C1BE5F73B00B55559 /* Debug */,
+				88F22E1D1BE5F73B00B55559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88F22DF41BE5F73B00B55559 /* WDAddressBookSync.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88F22DF51BE5F73B00B55559 /* WDAddressBookSync.xcdatamodel */,
+			);
+			currentVersion = 88F22DF51BE5F73B00B55559 /* WDAddressBookSync.xcdatamodel */;
+			path = WDAddressBookSync.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88F22DDD1BE5F73B00B55559 /* Project object */;
+}
